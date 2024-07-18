@@ -1,0 +1,32 @@
+h1  LA EM CIMA NO SOBRE 
+FONT 30PX 
+p PARAGRAFO LA EM CIMA 18PX
+
+------------------------
+SOBRE 
+h2 28PX
+p 18PX
+
+----------------------------
+MISSAO VISAO VALORES
+h3 18PX
+p 14PX
+--------------------------------------
+FOOTER
+22px h5
+16px p, a
+-----------------------------
+FONTES ACIMA SÃO DA PAGINA SOBRE 
+-----------------------------------
+PAG INDEX 
+H1 24px
+--------------------------
+H3 E P SÃO IGUAIS DA PAG SOBRE 
+----------------------------------
+iniciar projeto página index lá em baixo
+H2 32PX 
+--------------------------------------
+o vídeo 
+<section class="section-topo bannerHome">
+       <!-- <video src="./video/videoBackground.mp4" autoplay loop muted></video>-->
+---------------------------------------

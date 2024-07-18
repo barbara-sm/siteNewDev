@@ -1,0 +1,814 @@
+@media(max-width:1200px){
+    .equipe {
+        max-width: 100%;
+    }
+    .equipe h2 {
+        padding: 10px;
+        margin: 0;
+    }
+    .equipe-caixas {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .equipe-caixa {
+        flex: 1 1 calc(33.33% - 20px); 
+        margin: 10px; 
+    }
+    .equipe-caixa:nth-child(4),
+    .equipe-caixa:nth-child(5) {
+        flex: 0 1 calc(33.33% - 20px);
+    }
+}
+
+@media(max-width:1000px){
+    .section-topo {
+        height: 500px;
+    }
+    .sobre-text {
+        margin-top: 120px;
+    }
+    .seta {
+        bottom: 40px;
+    }
+    .sobre-video {
+        margin: 10px 0;
+    }
+    iframe {
+        height: 450px;
+    }
+    .equipe {
+        max-width: 100%;
+    }
+    .equipe h2 {
+        padding: 10px;
+        margin: 0;
+    }
+    .equipe-caixas {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .equipe-caixa {
+        flex: 1 1 calc(33.33% - 20px); 
+        margin: 10px; 
+    }
+    .equipe-caixa:nth-child(4),
+    .equipe-caixa:nth-child(5) {
+        flex: 0 1 calc(33.33% - 20px);
+    }
+    .logo-footer, .footer {
+       padding-left: 20px; 
+    }
+    .footer-localizacao {
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .section-topo {
+        height: 500px;
+    }
+    .sobre-text {
+        max-width: 600px;
+        margin-top: 150px; 
+    }
+    .sobre-text h1 {
+        font-size: 24px;
+    }
+    .sobre-text p {
+        font-size: 14px;
+    }
+    .seta {
+        bottom: 50px; 
+    }
+    .sobre-video {
+        margin: 20px 0;
+        text-align: center; 
+    }
+    .sobre-video iframe {
+        max-width: 100%; 
+        height: 400px;
+    }
+    .valores-caixa {
+        justify-content: space-between; 
+        padding: 0 10px;
+    }
+    .missao, .visao, .valores {
+        flex: 1 1 30%; 
+        margin: 0 5px; 
+    }
+    .equipe h2 {
+        text-align: center;
+    }
+    .equipe {
+        width: 100%;
+    }
+    .equipe-caixas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .equipe-caixa {
+        width: calc(33.33% - 20px); 
+        margin: 10px;
+    }
+    .equipe-caixa:nth-child(4),
+    .equipe-caixa:nth-child(5) {
+        width: calc(33.33% - 20px); 
+    }
+    footer {
+        margin-top: 30px;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer h5 {
+        font-size: 18px;
+    }
+    footer p, footer a {
+        font-size: 12px;
+    }
+    footer button {
+        height: 30px;
+    }
+    .logo-footer  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:700px){
+    .servicos {
+        padding: 0;
+    }
+    .servicos-caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+    .servicos-descricao {
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+    .servicos-opcoes {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        gap: 20px; 
+    }
+    .servico {
+        display: flex;
+        align-items: center;
+        text-align: left; 
+        padding: 20px;
+        box-sizing: border-box; 
+        border-radius: 10px;
+        box-shadow: 10px 8px 20px 16px #0000001a;
+        background-color: #e4e3e3af;
+    }
+    .servico img {
+        width: 80px; 
+        height: 80px;
+        margin-right: 10px;
+    }
+    .servicos {
+        padding: 0;
+    }
+    .servicos-caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+    .servicos-descricao {
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+    .servicos-opcoes {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        gap: 20px; 
+    }
+    .servico {
+        display: flex;
+        align-items: center;
+        text-align: left; 
+        padding: 20px;
+        box-sizing: border-box; 
+        border-radius: 10px;
+        box-shadow: 10px 8px 20px 16px #0000001a;
+        background-color: #e4e3e3af;
+    }
+    .servico img {
+        width: 80px; 
+        height: 80px;
+        margin-right: 10px;
+    }
+    .servico p {
+       margin-left: 10px; 
+       font-size: 14px;
+    }
+}
+
+@media(max-width:699px){
+    .topo-menu nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50px; 
+        background: #e4e3e3af;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        z-index: 10;
+    }
+    .topo-menu nav ul.show {
+        display: flex;
+    }
+    .topo-menu nav ul li {
+        width: 100%;
+        margin-left: 0;
+    }
+    .topo-menu nav ul li:last-child {
+        margin-left: 0px;
+    }
+    .topo-menu nav ul li:last-child a{
+        background: none;
+        border: none;
+        color: #333;
+        font-weight: bolder;
+    }
+    .topo-menu nav ul li:last-child a:hover {
+       background: none;
+    }
+    .topo-menu nav ul li a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:590px){
+    .sobre-text p {
+        padding: 10px;
+    }
+    .valores-caixa {
+        flex-direction: column;
+    }
+    .valores-caixa > div {
+        display: flex;
+        align-items: center;
+        width: 100%; 
+        margin-bottom: 20px; 
+        background: #e4e3e3af; 
+        padding: 10px; 
+        border-radius: 10px; 
+    }
+    .valores-caixa img {
+        width: 30%; 
+        height: auto;
+        margin-right: 10px; 
+    }
+    .valores-caixa h3, .valores-caixa p {
+        margin: 0;
+    }  
+    footer {
+        height: 300px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-atendimento,.footer-links  {
+        flex-basis: 48%; 
+        text-align: center;
+    }
+    .footer-atendimento{
+        margin-top: 10px;
+    }
+    .footer-links ul {
+        text-align: left; 
+        padding-left: 100px;
+    }
+    .footer-localizacao {
+        flex-basis: 100%; 
+        text-align: center;
+        margin-top: 20px;
+    }
+    footer .footer-localizacao button:hover {
+        padding: 0;
+        transform: none;
+        border: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .topo-menu nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50px; 
+        background: #e4e3e3af;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        z-index: 10;
+    }
+    .topo-menu nav ul.show {
+        display: flex;
+    }
+    .topo-menu nav ul li {
+        width: 100%;
+        margin-left: 0;
+    }
+    .topo-menu nav ul li:last-child {
+        margin-left: 0px;
+    }
+    .topo-menu nav ul li:last-child a{
+        background: none;
+        border: none;
+        color: #333;
+        font-weight: bolder;
+    }
+    .topo-menu nav ul li:last-child a:hover {
+       background: none;
+    }
+    .topo-menu nav ul li a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+     .section-topo {
+        position: relative; 
+        background: linear-gradient(to top,#00000050, #585859);
+        padding-top: 5px;
+    }
+    .sobre-text h1 {
+        margin-bottom: 10px;
+    }
+    .sobre-text p {
+        font-size: 14px;
+    }
+    .seta {
+        bottom: 30px; 
+        transform: translateX(-50%); 
+    }
+    .sobre-video {
+        margin: 20px 0;
+    }
+    .sobre-nos p {
+        font-size: 14px;
+    }
+    .valores-caixa {
+        flex-direction: column;
+    }
+    .valores-caixa > div {
+        display: flex;
+        align-items: center;
+        width: 100%; 
+        margin-bottom: 20px; 
+        background: #e4e3e3af; 
+        padding: 10px; 
+        border-radius: 10px; 
+    }
+    .valores-caixa img {
+        width: 30%; 
+        height: auto;
+        margin-right: 10px; 
+    }
+    .valores-caixa h3, .valores-caixa p {
+        margin: 0;
+    }
+    .equipe-caixa p {
+        font-size: 12px;
+    }
+ 
+    .servicos {
+        padding: 0;
+    }
+    .servicos-caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+    .servicos-descricao {
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+    .servicos-opcoes {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        gap: 20px; 
+    }
+    .servico {
+        display: flex;
+        align-items: center;
+        text-align: left; 
+        padding: 20px;
+        box-sizing: border-box; 
+        border-radius: 10px;
+        box-shadow: 10px 8px 20px 16px #0000001a;
+        background-color: #e4e3e3af;
+    }
+    .servico img {
+        width: 80px; 
+        height: 80px;
+        margin-right: 10px;
+    }
+    .servico p {
+       margin-left: 10px; 
+       font-size: 14px;
+    }
+    footer {
+        height: 300px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-atendimento,.footer-links  {
+        flex-basis: 48%; 
+        text-align: center;
+    }
+    .footer-atendimento{
+        margin-top: 10px;
+    }
+    .footer-links ul {
+        text-align: left; 
+        padding-left: 100px;
+    }
+    .footer-localizacao {
+        flex-basis: 100%; 
+        text-align: center;
+        margin-top: 20px;
+    }
+    footer .footer-localizacao button:hover {
+        padding: 0;
+        transform: none;
+        border: none;
+    }
+}
+
+@media(max-width:450px){
+   .sobre-text h1 {
+    margin-top: -30px;
+    font-size: 20px;
+   }
+}
+
+@media(max-width:360px) {
+    .section-topo {
+        position: relative; 
+        background: linear-gradient(to top,#00000050, #585859);
+        padding-top: 5px;
+    }
+    .sobre-text h1, .sobre-nos h2, .equipe h2 {
+        font-size: 20px;
+    }
+    .sobre-text p, .sobre-nos p {
+        font-size: 12px;
+    }
+    .seta {
+        display: none;
+    }
+    .valores-caixa img {
+        margin-right: 0;
+    }
+    .equipe-caixa a {
+        width: 80px;
+        padding: 5px;
+    }
+    .servico {
+        flex-direction: column;
+    }
+    .servico img {
+        margin: 0;
+    }
+    .servico p {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    footer {
+        height: 400px;
+    }
+    footer a {
+        font-size: 10px;
+    }
+    .logo-footer {
+        display: none;
+    }
+    .footer-links ul {
+        margin-top: 5px;
+        padding: 0;
+        text-align: center
+    }
+}
+
+/*index*/
+
+@media(max-width:1024px) {
+    .servico-container {
+        align-items: normal;
+        margin-top: 10px;
+        height: 550px;
+    }
+    .servico-text {
+        padding-left: 10px;
+    } 
+    .nossos-projetos h2, .nossos-projetos p{
+        padding-left: 10px;
+    }
+    .avaliacao p {
+        padding: 50px 20px 10px;
+    } 
+    .servicos-descricao h2 {
+        font-size: 28px;
+    }
+    .logo-footer, .footer {
+        padding-left: 20px; 
+     }
+     .footer-localizacao {
+         padding-right: 20px;
+     }
+}
+
+@media(max-width:800px){
+    .servico-container {
+        align-items: normal;
+        margin-top: 10px;
+        height: 550px;
+    }
+    .servico-text {
+        padding-left: 10px;
+    } 
+    .nossos-projetos h2, .nossos-projetos p{
+        padding-left: 10px;
+    }
+    .avaliacao p {
+        padding: 20px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer h5 {
+        font-size: 18px;
+    }
+    footer p, footer a {
+        font-size: 12px;
+    }
+    footer button {
+        height: 30px;
+    }
+    .logo-footer  {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:768px){
+    .servico-container {
+        align-items: normal;
+        margin-top: 10px;
+        height: 550px;
+    }
+    .servico-text {
+        padding-left: 10px;
+    }
+    .servico-text h1 {
+        font-size: 28px;
+    }
+    .bolinhas {
+        top: 480px;
+    }
+    .nossos-projetos h2, .nossos-projetos p{
+        padding-left: 10px;
+    }
+    .avaliacao p {
+        padding: 20px;
+    }
+}
+
+@media(max-width:760px){
+    .escolher-servico{
+        padding-left: 10px;
+    }
+    .servicos-caixa {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:740px){
+    .avaliacao h4, .avaliacao  p,.avaliacao img{
+        padding: 0;
+      } 
+    .avaliacao  p{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:700px){
+    .topo-menu nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50px; 
+        background: #e4e3e3af;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        z-index: 10;
+    }
+    .topo-menu nav ul.show {
+        display: flex;
+    }
+    .topo-menu nav ul li {
+        width: 100%;
+        margin-left: 0;
+    }
+    .topo-menu nav ul li:last-child {
+        margin-left: 0px;
+    }
+    .topo-menu nav ul li:last-child a{
+        background: none;
+        border: none;
+        color: #333;
+        font-weight: bolder;
+    }
+    .topo-menu nav ul li:last-child a:hover {
+       background: none;
+    }
+    .topo-menu nav ul li a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    } 
+}
+
+@media(max-width:606px){
+    .avaliacao p {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    .avalicao img {
+        height: 60px;
+        width: 60px;
+    }
+    footer p, footer a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:594px){
+    .nossos-projetos {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:538px){
+    .nossos-projetos {
+        margin-top: 20px;
+    }
+    .avaliacao p {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    .avaliacao h4 {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:490px){
+    .avaliacao p {
+        font-size: 12px;
+    }
+    .iniciar-projeto {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario p {
+        text-align: center;
+    }
+    .formulario button {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:480px){
+    .section-topo {
+        height: 450px;
+    } 
+    .escolher-servico {
+        height: 1000px;
+    }
+      .servico-container {
+        flex-direction: column;
+        align-items: flex-start;
+    } 
+      .servico-text {
+        padding-left: 10px;
+        height: 400px;
+    }
+      .servico-text h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+      .servico-text, .carrossel {
+        width: 100%;
+    }
+     .carrossel {
+        top: 80px;
+        height: 400px;
+    }
+      .nossos-projetos h2  {
+        padding-left: 10px;
+        font-size: 24px;
+    }
+      .nossos-projetos p{
+        padding-left: 10px;
+    }
+    .projetos-caixa > div {
+        flex: 1 1 calc(50% - 10px); 
+        max-width: calc(50% - 10px);
+    }
+    .projetos-caixa > div:nth-child(3n+1):nth-last-child(1) {
+        flex: 1 1 100%; 
+    }
+    .avaliacoes {
+        padding: 5px;
+    }
+    .avaliacoes h2 {
+        font-size:24px;
+    }
+    .avaliacao {
+        margin: 2px;
+        height: 300px;
+        padding: 20px 5px;
+    }
+    .avaliacao p {
+        padding: 20px 10px 10px;
+        font-size: 10px;
+    }
+    .avaliacao img {
+        height: 80px;
+    }
+    .iniciar-projeto {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .text h2 {
+        font-size: 24px;
+        
+    }
+    .formulario p {
+        margin-top: 5px;
+        font-size: 14px;
+    } 
+}
+
+@media(max-width:416px){
+  .avaliacao h4, .avaliacao  p,.avaliacao img{
+    padding: 0;
+  }
+}
+
+@media(max-width:360px){
+    .avaliacao p {
+        padding: 0;
+    }
+}
